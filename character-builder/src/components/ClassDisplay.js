@@ -5,6 +5,7 @@ const ClassDisplay = (props) => {
                 props.classes.map((classes) => (
                     <div key={classes.index}>
                         <h2>{classes.name}</h2>
+                        <h4>url: {classes.url}</h4>
                     </div>
                 ))
             }
